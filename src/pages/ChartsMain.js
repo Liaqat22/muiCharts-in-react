@@ -17,8 +17,8 @@ function ChartsMain() {
   return (
     <>
     <div className='container-fluid'>
-        <NavLink to="https://github.com/Liaqat22/muiCharts-in-react/tree/main" className="btn btn-primary">github</NavLink>
-        <NavLink to="https://mui.com/x/react-charts/" className="btn btn-info mx-2">Mui charts</NavLink>
+        <NavLink to="https://github.com/Liaqat22/muiCharts-in-react/tree/main" target='blank' className="btn btn-primary">github</NavLink>
+        <NavLink to="https://mui.com/x/react-charts/" className="btn btn-info mx-2" target='blank'>Mui charts</NavLink>
       <div className='row d-flex justify-content-evenly align-items-center'>
 
         {charts?.map((c)=>(
